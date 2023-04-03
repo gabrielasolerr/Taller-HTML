@@ -1,0 +1,57 @@
+h1 {
+    color: #af1414
+  }
+  h2 {
+    color: #af1414
+  }
+  div {
+    text-align: justify;
+  }
+  
+  ol {
+    color: #443b3b
+  }
+  
+  ul {
+    color: #443b3b
+  }
+  
+  a {
+    font-weight: bold;
+  }
+  .description{
+    font-weight: bold;
+    color: black
+  }
+  
+  .canciones {
+    font-weight: bold;
+    color: black
+  }
+  
+  .informacion {
+    font-weight: bold;
+    color: black;
+  }
+
+  *{
+    box-sizing: border-box;
+  }
+
+  .allColumns {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  @media screen and (max-width: 768px) {
+    .allColumns {
+        width: 100%;
+    }
+  }
